@@ -1,7 +1,7 @@
 {
-  "name": "𝕿𝖎𝖙𝖆𝖓 𝖚𝖘𝖊𝖗𝖇𝖔𝖙",
-  "description": "The fucking Titan Userbot is ready to be deployed........ Join our support @THETITANS_USERBOT",
-  "logo": "https://telegra.ph/file/e0f4398b3637174e9686f.jpg",
+  "name": "TITANS USERBOT",
+  "description": "A POWERFUL USERBOT BASED ON TELETHON.",
+  "logo": "https://telegra.ph/file/bf9def4066dba6d87bb08.jpg",
     "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/TitanNetworks/The-Titans-Userbot/",
-  "website": "https://github.com/TitanNetworks/The-Titans-Userbot/",
-  "success_url": "https://t.me/THETITANS_USERBOT",
+  "repository": "https://github.com/TitanNetworks/TITANS-USERBOT",
+  "website": "1https://github.com/TitanNetworks/TITANS-USERBOT/",
+  "success_url": "https://t.me/KINGBOTOFFICIAL",
   "env": {
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.",
@@ -23,43 +23,43 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name. By default it is Titan Master",
-      "value": "Titan User",
+      "description": "Fill your Full name or Username like @H1M4N5HU0P. By default it is Mafia User",
+      "value": "TITANS_USER",
       "required": false
     },
     "ALIVE_MSG": {
-      "description": "Set Custom Alive Message When entering .alive Command.",
-      "value": "I am Titan Bot user",
+      "description": "Set Custom Alive Message When entering .mafia Command.",
+      "value": "💥TITANS USERBOT IS ALIVE⚡",
       "required": false
     },
-    "TITAN_IMG": {
-      "description": "Put here any telegraph media link for alive pic in .alive command.",
-      "value": "alive_gif.mp4",
+    "ALIVE_PIC": {
+      "description": "Put here any telegraph media link for alive pic in .mafia command.",
+      "value": "https://telegra.ph/file/bf9def4066dba6d87bb08.jpg",
       "required": false
     },
     "BIO_MSG": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "I am your daddy because I use Titan Userbot",
+      "value": "⚡ LEGENDARY AF TITANS⚡",
       "required": false
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for custom pmpermit pic.",
-      "value": "https://telegra.ph/file/19394b52001265d943584.mp4",
+      "value": "https://telegra.ph/file/bf9def4066dba6d87bb08.jpg",
       "required": true
     },
     "CUSTOM_PMPERMIT": {
       "description": "Enter Your custom pm permit msg.",
-      "value": "PLEASE DO NOT SPAM IN MY DM, OTHERWISE YOU WILL BLOCKED AND GIVEN FED BAN IN TITANS FEDERATION. I WILL REPLY YOU AFTER COME BACK ONLINE!",
+      "value": "PLEASE DO NOT SPAM MY DM, I WILL REPLY YOU AFTER COME BACK ONLINE!",
       "required": false
     },
     "PM_PERMIT_GROUP_ID": {
       "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
-      "value": "-1001174450494",
+      "value": "",
       "required": true
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
-      "value": "2184829"
+      "value": ""
     },
     "REM_BG_API_KEY": {
       "description": "Required for Removing image background. Get your api key from https://www.remove.bg/",
@@ -83,36 +83,36 @@
     },
     "SUDO_COMMAND_HAND_LER": {
       "description": "Please enter sudo user command handler",
-      "value": ",",
+      "value": "*",
       "required": false
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
-      "value": "6930b92388baabff4cb4a1d377085035"
+      "value": ""
     },
     "PLUGIN_CHANNEL": {
       "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": "-1001454124360"
+      "value": ""
     },
     "PRIVATE_GROUP_BOT_API_ID": {
       "description": "create a private channel and then type .get_id add that value here for save messages",
-      "value": "-1001454124360"
+      "value": ""
     },
     "PRIVATE_GROUP_ID": {
       "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": "-1001454124360"
+      "value": ""
     },
     "PM_LOGGR_BOT_API_ID": {
        "description": "for login private messages create a private channel and do .get_id and add that id", 
-       "value": "-1001454124360"
+       "value": ""
     }, 
     "STRING_SESSION": {
-      "description": "Get this value by running https://repl.it/itzgauravv/AuraXBot#main.py ",
+      "description": "Get this value by running ... ",
       "value": ""
     },
     "HEROKU_API_KEY": {
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
-      "value": "a79b4824-ae30-4037-bbd5-da263c24be15",
+      "value": "",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -122,7 +122,7 @@
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
-      "value": "1804772592:AAE53HSvf7p-L9eeu5Sqpg3uO72LQuEyjQ4"
+      "value": ""
     },
     "CHROME_BIN": {
       "description": "For Carbon.py. Leave as it is. ",
@@ -136,7 +136,7 @@
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at @BotFather and get the username of your bot",
-      "value": "@Titanpublicbot"
+      "value": ""
     },
     "OPEN_WEATHER_MAP_APPID": {
       "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
@@ -154,7 +154,7 @@
     },
     "EMOJI_TO_DISPLAY_IN_HELP": {
       "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "⍣",
+      "value": "🔱",
       "required": false
     }, 
     "TZ": {
@@ -165,7 +165,7 @@
     "PM_DATA": {
       "description": "Type DISABLE if you want to disable pm protection... ",
       "value": "ENABLE",
-      "required": true 
+      "required": false 
     }
   },
   "addons": [
