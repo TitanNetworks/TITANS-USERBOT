@@ -6,10 +6,10 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $TITAN_REPO == "titansbot" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1VTRVJCT1QtU1VQUE9SVC9USVRBTlMtVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1VTRVJCT1QtU1VQUE9SVC9USVRBTlMtQk9U" | base64 -d
     elif [[ $TITAN_REPO == "TITANSBOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1VTRVJCT1QtU1VQUE9SVC9USVRBTlMtVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1VTRVJCT1QtU1VQUE9SVC9USVRBTlMtQk9U" | base64 -d
     elif [[ $TITAN_REPO =~ $regex ]]
     then
         if [[ $TITAN_REPO_BRANCH ]]
@@ -19,7 +19,7 @@ _get_repolink () {
             echo "${TITAN_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1VTRVJCT1QtU1VQUE9SVC9USVRBTlMtVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1VTRVJCT1QtU1VQUE9SVC9USVRBTlMtQk9U" | base64 -d
     fi
 }
 
